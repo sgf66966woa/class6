@@ -23,6 +23,7 @@ public class SolrManager {
 			doc.addField("name", "solr创建"+i);
 			doc.addField("content", "solr创建"+i);
 			solrServer.add(doc);
+			
 		}
 		
 		solrServer.commit();
